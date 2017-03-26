@@ -1,0 +1,41 @@
+.table > thead > tr > th, .table > tbody > tr > th,
+.table > tfoot > tr > th, .table > thead > tr > td,
+.table > tbody > tr > td, .table > tfoot > tr > td {
+    padding: 2px;
+    vertical-align: middle;
+    border-width: 5px !important;
+    border-style: double !important;
+}
+
+/*.table td{
+    border-width:5px !important;  
+    border-style:double !important;
+}
+
+.table th{
+    border-width:5px !important;  
+    border-style:double !important;
+}*/
+
+input.form-control {
+    /*padding-left: 0px;*/
+    margin-left: 0px;
+    height: 33px !important;
+}
+
+/*.table-borderless > tbody > tr > td,*/
+/*.table-borderless > tbody > tr > th,*/
+/*.table-borderless > tfoot > tr > td,*/
+/*.table-borderless > tfoot > tr > th,*/
+/*.table-borderless > thead > tr > td,*/
+/*.table-borderless > thead > tr > th {*/
+    /*border: none;*/
+    /*width: 100%;*/
+    /*word-wrap: break-word;*/
+
+/*}*/
+
+.table-borderless > tbody > tr > td{
+    border: none;
+    width: 30%;
+}
